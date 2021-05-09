@@ -16,7 +16,7 @@ mongoose.connect(
 );
 app.use(bodyParser.urlencoded({"extended": false}));
 
-WEBSITE_URL = 'https://tinier-link.herokuapp.com/api/shorturl'
+const WEBSITE_URL = 'https://tinier-link.herokuapp.com/api/shorturl/'
 // Setting up schemas
 
 const {Schema} = mongoose,
@@ -183,7 +183,7 @@ app.post(
 
                                         res.json({
                                             "original_url": new_url.url,
-                                            "short_url": new_url.short_url
+                                            "short_url": WEBSITE_URL + new_url.short_url
                                         });
 
                                     }
