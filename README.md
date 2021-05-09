@@ -1,1 +1,1 @@
-# [URL Shortener Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice)
+URL Shortener Microservice as part of the freeCodeCamp curriculum. Involves HTML, CSS, Node, MongoDB, and Mongoose. Live demo [here](https://tinier-link.herokuapp.com/).
